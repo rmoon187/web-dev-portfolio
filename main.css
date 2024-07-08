@@ -6,7 +6,13 @@
         "wdth" 100;
 }
 
+
+
 /* shared styles */
+.secondary-bg {
+    background-color: #FFF8F3;
+}
+
 .text-primary {
     color: #FD6E0A;
 }
@@ -30,11 +36,26 @@
     cursor: pointer;
 }
 
+.section-title {
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+
+.section-description {
+    font-size: 18px;
+
+}
+.text-center{
+    text-align: center;
+}
+
+
 .head {
-    background-image: url("images/header_bg.png"),url("images/developer.png");
+    background-image: url("images/header_bg.png"), url("images/developer.png");
     background-repeat: no-repeat;
-    background-position: bottom right,top left;
-   
+    background-position: bottom right, top left;
+
 }
 
 /* nav styles */
@@ -94,4 +115,67 @@ nav ul a {
 
 .banner-propic {
     width: 580px;
+}
+
+/* main styles */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
+/* about styles */
+.about {
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    
+   
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.about-content{
+    border: 1px solid;
+}
+.item-title{
+    font-size: 20px;
+    margin-bottom: 0;
+}
+.item-des{
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+/* what i do styles  */
+.what{
+   
+    margin-top: 160px;
+    
+}
+.what-description {
+    font-size: 18px;
+    width: 909px;
+    margin: auto;
+    margin-bottom: 50px;
+    padding: 1rem;
+    margin-top: 30px;
+}
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skills-name{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.06);
+}
+.skill-des{
+    width: 200px;
 }
